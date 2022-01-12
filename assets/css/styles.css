@@ -1,5 +1,6 @@
 /* Google Font - Poppins CSS File Code*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* Variables CSS File Code*/
 :root {
   --header-height: 3rem;
@@ -142,6 +143,8 @@ img {
 .nav_link {
   position: relative;
   color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
 .nav_link:hover {
@@ -160,6 +163,8 @@ img {
 
 .nav_logo {
   color: var(--second-color);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
 .nav_toggle {
@@ -195,6 +200,7 @@ img {
 .home_title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .home_title-color {
@@ -218,10 +224,9 @@ img {
 }
 
 .home_img {
-  position:absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
-  
   width: 50px;
 }
 
@@ -229,21 +234,25 @@ img {
   margin-bottom: 20px;
   margin-left: 80px;
   width: 80%;
-  height: cm;
 }
 
 /* BUTTONS */
 .button {
   display: inline-block;
+  margin: 10px;
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   background: var(--gardient-color);
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  color: #000;
 }
 
 .section {
@@ -258,6 +267,8 @@ img {
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
 .section-title::after {
@@ -281,8 +292,14 @@ img {
 
 .about_subtitle {
   margin-bottom: var(--mb-2);
+  font-family: 'Times New Roman', Times, serif;
+  
 }
 
+.about_text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
 .about_img {
   justify-content: center;
 }
@@ -300,10 +317,13 @@ img {
 
 .skills_subtitle {
   margin-bottom: var(--mb-2);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .skills_text {
   margin-bottom: var(--mb-4);
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .skills_data {
@@ -327,6 +347,8 @@ img {
 .skills_name {
   display: flex;
   align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
 .skill_bar {
@@ -344,15 +366,15 @@ img {
 }
 
 .skill_BI {
-  width: 70%;
-}
-
-.skill_js {
   width: 75%;
 }
 
-.skill_excel {
+.skill_js {
   width: 70%;
+}
+
+.skill_excel {
+  width: 75%;
 }
 
 /* WORK CSS File Code*/
@@ -369,15 +391,18 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
 }
-
+.work_link{
+  font-size: large;
+}
 .work_img img {
   transition: 1s;
   cursor: pointer;
 }
 
 .work_img img:hover {
- transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Contact CSS File Code*/
@@ -391,6 +416,7 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .control_button {
@@ -400,6 +426,7 @@ img {
   font-size: var(--nomral-font-size);
   cursor: pointer;
   margin-left: auto;
+  font: large;
 }
 
 /* Footer CSS File Code */
@@ -414,6 +441,7 @@ img {
 .footer_title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .footer_socials {
@@ -425,6 +453,9 @@ img {
   color: #fff;
   margin: 0 var(--mb-2);
 }
+.footer_icon:hover{
+  color: black;
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -435,6 +466,7 @@ img {
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
+
   .section-title {
     margin-bottom: var(--mb-6);
   }
@@ -473,15 +505,17 @@ img {
   .home_data {
     align-self: flex-end;
   }
+
   .home_social {
     padding-top: 0;
     padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
+    margin-bottom: 30px;
   }
 
   .home_social-icon {
-    margin-bottom: 0;
+    margin-bottom: 40px;
     margin-right: var(--mb-4);
   }
 
@@ -514,6 +548,7 @@ img {
   .contact_form {
     width: 400px;
   }
+
   .contact_container {
     justify-items: center;
   }
