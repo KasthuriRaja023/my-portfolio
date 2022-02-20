@@ -365,16 +365,20 @@ img {
   width: 70%;
 }
 
-.skill_BI {
-  width: 75%;
-}
-
 .skill_js {
-  width: 70%;
+  width: 60%;
 }
 
 .skill_excel {
   width: 75%;
+}
+
+.skill_stat {
+  width: 50%;
+}
+
+.skill_R {
+  width: 55%;
 }
 
 /* WORK CSS File Code*/
