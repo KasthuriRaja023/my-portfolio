@@ -313,6 +313,7 @@ img {
 .skills_container {
   row-gap: 2rem;
   text-align: center;
+  /*padding-left: 15px;*/
 }
 
 .skills_subtitle {
@@ -374,12 +375,25 @@ img {
 }
 
 .skill_stat {
-  width: 50%;
+  width: 45%;
 }
 
 .skill_R {
-  width: 55%;
+  width: 50%;
 }
+
+.skill_pent {
+  width: 65%;
+}
+
+.skill_pyth {
+  width:55%;
+}
+
+.skill_react {
+  width: 50%;
+}
+
 
 /* WORK CSS File Code*/
 
